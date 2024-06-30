@@ -79,7 +79,7 @@ nav ul li{
     display: flex;
     height: 50px;
     background-color: black;
-    color: black;
+    color:rgb(245, 239, 239);
     font-size: 20px;
     margin: 12px 0; 
     justify-content: space-between;
@@ -109,4 +109,7 @@ nav ul li{
 .songInfo img{
    opacity: 0;
    transition: opacity 0.8s ease-in;
+}
+h1{
+    color: black;
 }
