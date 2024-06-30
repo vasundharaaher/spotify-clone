@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
+
+body{
+    background-color: rgb(205, 222, 228);
+    background-image: url("cover.png" );
+}
+*{
+    margin:0;
+    padding: 0;
+}
+nev{
+    font-family: 'Ubuntu' ,sans-serif;
+}
+nav ul{
+    display: flex; 
+    align-items: center;
+    list-style-type: none;
+    height: 60px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+nav ul li{
+    padding: 0 12px;
+
+}
+.brand img{
+    width: 40px;
+    padding: 0 10px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder ;
+    font-size:1.3rem ;
+
+}
+.container{
+    background-image: url("sec.png" );
+    min-height: 64vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: 18px auto;
+    width:65%;
+    border-radius :12px ;
+    padding: 34px;
+    
+    
+}
+.bottom{
+    position: sticky;
+    height: 110px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+
+}
+#progressbar{
+    width: 80vw;
+    text-align: center;
+    cursor: pointer;
+}
+.icons{
+    margin: 10px;
+}
+.icons i{
+    cursor: pointer;
+}
+.songItemContainer{
+    margin-top: 60px ;
+}
+.songItem{
+    display: flex;
+    height: 50px;
+    background-color: rgb(250, 197, 220);
+    color: black;
+    font-size: 20px;
+    margin: 12px 0; 
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+
+}
+.songItem img{
+    width: 45px;
+    margin: 0 23px;
+    border-radius: 20%;
+}
+.timeSpan{
+    margin: 0 23px;
+}
+.timeSpan i{
+    margin: 0 5px;
+    cursor: pointer;
+}
+.songInfo{
+    position: absolute;
+    left: 9vw;
+    margin: 0 8px;
+    font-family:'Covered+By+Your+Grace' ,sans-serif ;
+
+}
+.songInfo img{
+   opacity: 0;
+   transition: opacity 0.8s ease-in;
+}
